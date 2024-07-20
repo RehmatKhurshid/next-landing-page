@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Button } from './ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from './ui/card';
 
@@ -7,18 +8,20 @@ export default function ResponsiveCards() {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {/* Card 1 */}
-                    <Card className="w-full flex flex-col relative">
-                        <div className="w-full">
-                            <img
-                                src="https://t3.ftcdn.net/jpg/03/79/17/00/360_F_379170051_7No0Yg8z2uxbyby4Y0WFDNCBZo18tNGr.jpg"
-                                alt="Placeholder"
-                                className="w-full h-48 object-cover"
+                    <Card className=" flex flex-col relative max-w-lg max-h-md mx-auto">
+                        <div className="p-4">
+                            <Image
+                                src="/images/abc.png"
+                                width={500}
+                                height={500}
+                                alt="Picture of the author"
+                                className="rounded-lg"
                             />
                         </div>
+
                         <div className="p-4 flex flex-col justify-between flex-1">
                             <CardHeader>
                                 <CardDescription>
-                                    {/* Add the date here */}
                                     <em className="text-sm text-gray-500">July 19, 2024</em>
                                 </CardDescription>
                                 <CardTitle>FOUNDATION</CardTitle>
@@ -41,18 +44,20 @@ export default function ResponsiveCards() {
 
 
                     {/* Card 2 */}
-                    <Card className="w-full flex flex-col relative">
-                        <div className="w-full">
-                            <img
-                                src="https://t3.ftcdn.net/jpg/03/79/17/00/360_F_379170051_7No0Yg8z2uxbyby4Y0WFDNCBZo18tNGr.jpg"
-                                alt="Placeholder"
-                                className="w-full h-48 object-cover"
+                    <Card className=" flex flex-col relative max-w-lg max-h-md mx-auto">
+                        <div className="p-4">
+                            <Image
+                                src="/images/abc.png"
+                                width={500}
+                                height={500}
+                                alt="Picture of the author"
+                                className="rounded-lg"
                             />
                         </div>
+
                         <div className="p-4 flex flex-col justify-between flex-1">
                             <CardHeader>
                                 <CardDescription>
-                                    {/* Add the date here */}
                                     <em className="text-sm text-gray-500">July 19, 2024</em>
                                 </CardDescription>
                                 <CardTitle>FOUNDATION</CardTitle>
@@ -76,19 +81,23 @@ export default function ResponsiveCards() {
 
 
 
+
+
                     {/* Card 3 */}
-                    <Card className="w-full flex flex-col relative">
-                        <div className="w-full">
-                            <img
-                                src="https://t3.ftcdn.net/jpg/03/79/17/00/360_F_379170051_7No0Yg8z2uxbyby4Y0WFDNCBZo18tNGr.jpg"
-                                alt="Placeholder"
-                                className="w-full h-48 object-cover"
+                    <Card className=" flex flex-col relative max-w-lg max-h-md mx-auto">
+                        <div className="p-4">
+                            <Image
+                                src="/images/abc.png"
+                                width={500}
+                                height={500}
+                                alt="Picture of the author"
+                                className="rounded-lg"
                             />
                         </div>
+
                         <div className="p-4 flex flex-col justify-between flex-1">
                             <CardHeader>
                                 <CardDescription>
-                                    {/* Add the date here */}
                                     <em className="text-sm text-gray-500">July 19, 2024</em>
                                 </CardDescription>
                                 <CardTitle>FOUNDATION</CardTitle>
@@ -111,18 +120,20 @@ export default function ResponsiveCards() {
 
 
                     {/* Card 4 */}
-                    <Card className="w-full flex flex-col relative">
-                        <div className="w-full">
-                            <img
-                                src="https://t3.ftcdn.net/jpg/03/79/17/00/360_F_379170051_7No0Yg8z2uxbyby4Y0WFDNCBZo18tNGr.jpg"
-                                alt="Placeholder"
-                                className="w-full h-48 object-cover"
+                    <Card className=" flex flex-col relative max-w-lg max-h-md mx-auto">
+                        <div className="p-4">
+                            <Image
+                                src="/images/abc.png"
+                                width={500}
+                                height={500}
+                                alt="Picture of the author"
+                                className="rounded-lg"
                             />
                         </div>
+
                         <div className="p-4 flex flex-col justify-between flex-1">
                             <CardHeader>
                                 <CardDescription>
-                                    {/* Add the date here */}
                                     <em className="text-sm text-gray-500">July 19, 2024</em>
                                 </CardDescription>
                                 <CardTitle>FOUNDATION</CardTitle>

@@ -7,6 +7,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
+import Image from "next/image"
 
 export function CarouselDemo() {
     return (
@@ -15,13 +16,13 @@ export function CarouselDemo() {
                 <CarouselContent className="w-full h-full ">
                     {Array.from({ length: 5 }).map((_, index) => (
                         <CarouselItem key={index} className="w-full h-full flex justify-center items-center">
-                            <div className=" w-full h-full flex ">
-                                <img 
-                                    src={`https://t3.ftcdn.net/jpg/03/79/17/00/360_F_379170051_7No0Yg8z2uxbyby4Y0WFDNCBZo18tNGr.jpg`}
-                                    // alt={`Item ${index + 1}`}
-                                    className=" w-full h-80 object-cover"
+                            <div className="relative w-screen h-screen overflow-hidden">
+                                <Image
+                                    src="/images/Rectangle-160390.jpg"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    alt="Picture of the author"
                                 />
-
                             </div>
                         </CarouselItem>
                     ))}
