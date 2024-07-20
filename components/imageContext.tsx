@@ -24,10 +24,10 @@ export default function ResponsiveCards() {
                                 <CardDescription>
                                     <em className="text-sm text-gray-500">July 19, 2024</em>
                                 </CardDescription>
-                                <CardTitle>FOUNDATION</CardTitle>
+                               <CardTitle>Foundation for P. A. Sangma Integrated Sports Complex Tura</CardTitle>
                             </CardHeader>
                             <CardFooter className="flex justify-between mt-4">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo delectus repellendus, dolorem praesentium officia culpa eligendi ipsa qui accusantium, veniam eos nulla autem est, ipsum molestias quibusdam alias nesciunt sit?
+                            We have built an eCommerce system dedicated to exclusive cuisine.
                             </CardFooter>
                         </div>
                         {/* Arrow with circle indicating more content */}
@@ -60,10 +60,10 @@ export default function ResponsiveCards() {
                                 <CardDescription>
                                     <em className="text-sm text-gray-500">July 19, 2024</em>
                                 </CardDescription>
-                                <CardTitle>FOUNDATION</CardTitle>
-                            </CardHeader>
+                                <CardTitle>Foundation for P. A. Sangma Integrated Sports Complex Tura</CardTitle>
+                                </CardHeader>
                             <CardFooter className="flex justify-between mt-4">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo delectus repellendus, dolorem praesentium officia culpa eligendi ipsa qui accusantium, veniam eos nulla autem est, ipsum molestias quibusdam alias nesciunt sit?
+                               We have built an eCommerce system dedicated to exclusive cuisine.
                             </CardFooter>
                         </div>
                         {/* Arrow with circle indicating more content */}
@@ -100,10 +100,10 @@ export default function ResponsiveCards() {
                                 <CardDescription>
                                     <em className="text-sm text-gray-500">July 19, 2024</em>
                                 </CardDescription>
-                                <CardTitle>FOUNDATION</CardTitle>
-                            </CardHeader>
+                                <CardTitle>Foundation for P. A. Sangma Integrated Sports Complex Tura</CardTitle>
+                            </CardHeader> 
                             <CardFooter className="flex justify-between mt-4">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo delectus repellendus, dolorem praesentium officia culpa eligendi ipsa qui accusantium, veniam eos nulla autem est, ipsum molestias quibusdam alias nesciunt sit?
+                               We have built an eCommerce system dedicated to exclusive cuisine.
                             </CardFooter>
                         </div>
                         {/* Arrow with circle indicating more content */}
@@ -136,10 +136,10 @@ export default function ResponsiveCards() {
                                 <CardDescription>
                                     <em className="text-sm text-gray-500">July 19, 2024</em>
                                 </CardDescription>
-                                <CardTitle>FOUNDATION</CardTitle>
-                            </CardHeader>
+                                <CardTitle>Foundation for P. A. Sangma Integrated Sports Complex Tura</CardTitle>
+                                </CardHeader>
                             <CardFooter className="flex justify-between mt-4">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo delectus repellendus, dolorem praesentium officia culpa eligendi ipsa qui accusantium, veniam eos nulla autem est, ipsum molestias quibusdam alias nesciunt sit?
+                               We have built an eCommerce system dedicated to exclusive cuisine.
                             </CardFooter>
                         </div>
                         {/* Arrow with circle indicating more content */}
